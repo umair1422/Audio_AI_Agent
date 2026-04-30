@@ -4,7 +4,11 @@
 # python
 __pycache__/
 *.py[cod]
-.json
+
+# local data (do not commit)
+ExpertServices.json
+
+# (avoid ignoring all .json files; we keep source/config json in repo)
 # virtualenv
 .venv/
 

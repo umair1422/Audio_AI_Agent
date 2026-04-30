@@ -61,6 +61,18 @@ export WHISPER_CPP_BIN="whisper-cli"
 export WHISPER_CPP_MODEL="models/ggml-base.bin"
 ```
 
+## Expert services data (required)
+
+Place your services JSON file at:
+
+- `ExpertServices.json` (this file is **ignored by git**)
+
+If your file is elsewhere, set:
+
+```bash
+export EXPERT_SERVICES_JSON="/absolute/path/to/ExpertServices.json"
+```
+
 ### Ollama (required)
 
 Install and run Ollama, then pull the model:
@@ -126,6 +138,7 @@ Notes:
 - `WHISPER_CPP_MODEL` (default: `models/ggml-base.bin`)
 - `WHISPER_CPP_LANG` (default: `en`)
 - `FFMPEG_BIN` (default: `ffmpeg`)
+- `EXPERT_SERVICES_JSON` (default: `ExpertServices.json`)
 - `OLLAMA_BASE_URL` (default: `http://127.0.0.1:11434`)
 - `OLLAMA_MODEL` (default: `phi3:mini`)
 - `OLLAMA_TIMEOUT_S` (default: `20`)
