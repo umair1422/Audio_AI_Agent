@@ -1,0 +1,10 @@
+rapidfuzz>=3.8.0
+requests>=2.32.0
+piper-tts>=1.0.0
+numpy>=1.26.0
+livekit
+livekit-api
+python-dotenv>=1.0.0
+
+# Optional (disabled by default; enable via ENABLE_SENTENCE_TRANSFORMERS=1)
+# sentence-transformers>=3.0.0

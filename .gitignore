@@ -1,0 +1,14 @@
+.env
+.env.*
+
+# python
+__pycache__/
+*.py[cod]
+.json
+# virtualenv
+.venv/
+
+# local models / caches
+models/.cache/
+models/piper/.cache/
+
